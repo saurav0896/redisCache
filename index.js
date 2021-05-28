@@ -32,8 +32,8 @@ var SomeModelSchema = new Schema({
 var SomeModel = mongoose.model('SomeModel', SomeModelSchema );
 
 SomeModel.create({
-   username: 'saurav12',
-   place: 'Gorakhpur12'
+   username: 'username1',
+   place: 'place1'
 })
 
 const redis_get = (req, res, next) => {
